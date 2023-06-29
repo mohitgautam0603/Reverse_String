@@ -1,0 +1,8 @@
+class Reverse{
+  public static void main(String[] args){
+    String name = "gautam";
+    StringBuilder sb = new StringBuilder(name).reverse();
+    String result = sb.toString();
+    System.out.println(result);
+  }
+}
